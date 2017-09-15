@@ -1,0 +1,8 @@
+[self resetApplicationBadge];
+25	}
+26	
+27	- (void)applicationWillEnterForeground:(UIApplication *)application {
+…	
+48	#if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_7_1
+49	
+50	- (void)application:(UIApplication *)application
